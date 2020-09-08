@@ -34,13 +34,13 @@ RULES:
 */
 
 let input = 5
-for(let i=0; i<=5;i++){
-    let result = ''
+for(let i =1; i<=input; i++){
+    let result=''
     for(let j=0; j<=i; j++){
         if(i%2 == 0){
-            result+= 'o'
+            result+='x'
         }else{
-            result+= 'x'
+            result+='o'
         }
     }
     console.log(result)

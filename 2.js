@@ -85,7 +85,7 @@ RULE:
 // isi variabel yang tersedia boleh diubah-ubah sesuai kebutuhan
 
 let hewan = 'Ayam'
-let jenisKelamin = 'jantan'
+let jenisKelamin = 'betina'
 let hari = 5
 
 // Tulis code di sini...
@@ -106,6 +106,6 @@ let hari = 5
      if(jenisKelamin == 'jantan'){
          console.log(`Ayam jantan beratnya naik ${0.2*hari} kg setiap ${hari} hari`)
      }else{
-         console.log(`Ayam betina bertelur ${Math.floor/2}setiap ${hari} hari sekali.`)
+         console.log(`Ayam betina bertelur ${Math.floor(hari/2)} setiap ${hari} hari sekali.`)
      }
  }
