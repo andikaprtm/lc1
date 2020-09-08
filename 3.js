@@ -36,11 +36,11 @@ RULES:
 let input = 5
 for(let i =1; i<=input; i++){
     let result=''
-    for(let j=0; j<=i; j++){
+    for(let j=1; j<=i; j++){
         if(i%2 == 0){
-            result+='x'
-        }else{
             result+='o'
+        }else{
+            result+='x'
         }
     }
     console.log(result)
